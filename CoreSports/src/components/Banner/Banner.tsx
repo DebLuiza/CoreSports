@@ -4,9 +4,9 @@ import styles from "./Styles/Banner.module.scss";
 export default function Banner() {
   return (
     <>
-    <Header/>
     <div className={styles["container-banner"]}>
-      <div className={styles["content-part"]}>
+    <Header/>
+    <div className={styles["content-part"]}>
         <div className={styles["title"]}>
             The Sports Essence
         </div>

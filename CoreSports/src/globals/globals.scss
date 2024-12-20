@@ -1,25 +1,29 @@
 @import './fonts';
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Kanit', sans-serif;
-}
-
-$yellow-01: #F6FA70;
+$yellow-01: #fdffb8;
 $yellow-02: #FFD93D;
 $yellow-03: #F8DE22;
 
 $transparent-yellow-02: #ffd83da8;
 
-$blue-03: #213555;
+$blue-03: #131e30;
 $blue-02: #2A3663;
 
+$transparent-blue-03: #21355554;
 
 $gray-03: #2A3335;
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    
+}
 
+body{
+  background-color: $blue-03;
+}
 
 @keyframes slide-in {
     from {
