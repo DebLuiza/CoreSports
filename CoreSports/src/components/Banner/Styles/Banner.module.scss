@@ -1,0 +1,33 @@
+@import '../../../globals/globals.scss';
+@import '../../../globals/fonts.scss';
+
+.container-banner{
+    height: 100vh;
+    width: 100%;
+    background-image: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), 
+    url('../../../assets/bg-player.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .content-part{
+        padding: 0rem 4rem;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        height: 100%;
+        width: 65%;
+
+        .title{
+            font-family: 'Kanit-bold';
+            font-size: 4rem;
+        }
+
+        .description{
+
+        }
+    }
+}
