@@ -1,7 +1,10 @@
+import Header from "../Header/Header";
 import styles from "./Styles/Banner.module.scss";
 
 export default function Banner() {
   return (
+    <>
+    <Header/>
     <div className={styles["container-banner"]}>
       <div className={styles["content-part"]}>
         <div className={styles["title"]}>
@@ -12,8 +15,11 @@ export default function Banner() {
           dicas de treinamento e muito mais para atletas, entusiastas e fãs.
           Conectando você ao universo esportivo com paixão e dedicação.
         </div>
-        <div className={styles["button-know-more"]}></div>
+        <div className={styles["button-know-more"]}>
+            Conheça mais
+        </div>
       </div>
     </div>
+    </>
   );
 }

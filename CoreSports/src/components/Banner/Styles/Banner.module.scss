@@ -10,9 +10,10 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 
     .content-part{
-        padding: 0rem 4rem;
+        padding: 0rem 6rem;
         display: flex;
         align-items: start;
         justify-content: center;
@@ -22,12 +23,28 @@
         width: 65%;
 
         .title{
-            font-family: 'Kanit-bold';
+            font-family: 'Play-bold';
             font-size: 4rem;
+            margin-bottom: 0.8rem;
+            letter-spacing: 3px;
         }
 
-        .description{
+        .button-know-more{
+            font-family: 'Play-bold';
+            font-size: 1.3rem;
+            background-color: $yellow-02;
+            color: $gray-03;
+            padding: 0.8rem 1.5rem;
+            margin-top: 1.4rem;
+            border-radius: 5px;
+            box-shadow: 0px 0px 15px $transparent-yellow-02;
+            transition: all .4s;
 
+            &:hover{
+                cursor: pointer;
+                transform: translateX(3px);
+                box-shadow: 0px 0px 25px $transparent-yellow-02;
+            }
         }
     }
 }
